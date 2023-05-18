@@ -1,0 +1,16 @@
+.gameSquare {
+	width: 20px;
+	height: 20px;
+	border: 1px solid black;
+	display: inline-block;
+	text-align: center;
+	cursor: pointer;
+}
+
+.gameSquare:hover {
+	background-color: lightgray;
+}
+
+.gameSquare:active {
+	background-color: gray;
+}
